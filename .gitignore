@@ -1,0 +1,30 @@
+# Angular specific
+dist/
+tmp/
+*.tgz
+.angular/
+
+# Dependencies
+node_modules/
+
+# Environment variables
+/src/environments/environment.ts
+/src/environments/environment.prod.ts
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+*.js.map
+*.css.map
