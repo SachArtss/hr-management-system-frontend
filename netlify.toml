@@ -1,0 +1,8 @@
+[build]
+  publish = "dist/hr-frontend"
+  command = "npm run build -- --configuration production"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
