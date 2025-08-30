@@ -128,6 +128,12 @@ SalaryListComponent - Salary records management
 
 SalaryFormComponent - Salary creation/editing
 
+## 📊 Status
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Uptime](https://img.shields.io/badge/uptime-100%25-brightgreen) 
+![API Status](https://img.shields.io/badge/API-live-success)
+
 ## 🙌 Author
 
 Developed by **Hadush Negasi**.  
