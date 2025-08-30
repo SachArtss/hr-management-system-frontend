@@ -29,7 +29,7 @@ export class DepartmentService {
 
   // PUT update existing department
   updateDepartment(department: Department): Observable<Department> {
-    return this.http.put<Department>(`${this.apiUrl}/${department.id}`, department);
+    return this.http.patch<Department>(`${this.apiUrl}/${department.id}`, department);
   }
 
   // DELETE department

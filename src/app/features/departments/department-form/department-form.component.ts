@@ -89,6 +89,7 @@ export class DepartmentFormComponent implements OnInit {
 
     this.isLoading = true;
     const departmentData = this.form.value;
+    console.log(departmentData);
 
     const operation = this.isEditMode
       ? this.departmentService.updateDepartment({ 
