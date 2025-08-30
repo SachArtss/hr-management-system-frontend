@@ -24,7 +24,7 @@ export class CandidateFormComponent implements OnInit {
     private candidateService: CandidateService,
     private departmentService: DepartmentService,
     private route: ActivatedRoute,
-    private router: Router,
+    public router: Router,
     private snackBar: MatSnackBar
   ) {
     this.form = this.fb.group({

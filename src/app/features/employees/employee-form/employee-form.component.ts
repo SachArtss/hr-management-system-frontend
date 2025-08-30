@@ -31,7 +31,7 @@ export class EmployeeFormComponent implements OnInit {
     private departmentService: DepartmentService,
     private salaryService: SalaryService,
     private route: ActivatedRoute,
-    private router: Router,
+    public router: Router,
     private snackBar: MatSnackBar
   ) {
     this.form = this.fb.group({

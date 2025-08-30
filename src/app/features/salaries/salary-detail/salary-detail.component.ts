@@ -18,7 +18,7 @@ export class SalaryDetailComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router,
+    public router: Router,
     private salaryService: SalaryService,
     private employeeService: EmployeeService,
     private snackBar: MatSnackBar

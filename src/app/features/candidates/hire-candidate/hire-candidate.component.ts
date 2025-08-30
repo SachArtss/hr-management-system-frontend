@@ -26,7 +26,7 @@ export class HireCandidateComponent implements OnInit {
   constructor(
     private fb: FormBuilder,
     private route: ActivatedRoute,
-    private router: Router,
+    public router: Router,
     private candidateService: CandidateService,
     private departmentService: DepartmentService,
     private salaryService: SalaryService,

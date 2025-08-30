@@ -33,7 +33,7 @@ export class EmployeeListComponent implements OnInit, AfterViewInit {
     'status',
     'actions'
   ];
-  dataSource = new MatTableDataSource<Employee>();
+  dataSource = new MatTableDataSource<Employee>()
   isLoading = false;
   
   // Filter controls
@@ -57,7 +57,7 @@ export class EmployeeListComponent implements OnInit, AfterViewInit {
     private dialog: MatDialog,
     private datePipe: DatePipe,
     private snackBar: MatSnackBar,
-    private router: Router
+    public router: Router
   ) {}
 
   ngOnInit(): void {

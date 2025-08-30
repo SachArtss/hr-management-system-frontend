@@ -35,7 +35,7 @@ export class CandidateListComponent implements OnInit {
   constructor(
     private candidateService: CandidateService,
     private departmentService: DepartmentService,
-    private router: Router,
+    public router: Router,
     private dialog: MatDialog
   ) {}
 

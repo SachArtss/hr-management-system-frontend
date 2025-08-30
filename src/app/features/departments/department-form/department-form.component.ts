@@ -23,7 +23,7 @@ export class DepartmentFormComponent implements OnInit {
     private departmentService: DepartmentService,
     private employeeService: EmployeeService,
     private route: ActivatedRoute,
-    private router: Router,
+    public router: Router,
     private snackBar: MatSnackBar
   ) {
     this.form = this.fb.group({

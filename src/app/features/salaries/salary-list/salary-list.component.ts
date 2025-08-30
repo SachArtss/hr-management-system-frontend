@@ -42,6 +42,7 @@ export class SalaryListComponent implements OnInit {
   }>();
   
   isLoading = false;
+  showAdvancedFilters = false;
   allSalaries: (Salary & { 
     employeeName: string, 
     position: string, 
